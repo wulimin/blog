@@ -1,0 +1,105 @@
+<h2>{{ page.title }}</h2>
+
+<p>
+[core]
+	symlinks = false
+	autocrlf = true
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = true
+[pack]
+	packSizeLimit = 2g
+[help]
+	format = html
+[http]
+	sslCAinfo = /bin/curl-ca-bundle.crt
+[sendemail]
+	smtpserver = /bin/msmtp.exe
+
+[diff "astextplain"]
+	textconv = astextplain
+[rebase]
+	autosquash = true
+
+	
+[color]
+ 
+diff = auto
+ 
+status = auto
+ 
+branch = auto
+ 
+interactive = auto
+ 
+ui = true
+ 
+pager = true
+ 
+ 
+ 
+ 
+[color "branch"]
+ 
+current = yellow reverse
+ 
+local = yellow
+ 
+remote = green
+ 
+ 
+ 
+ 
+[color "diff"]
+ 
+meta = yellow bold
+ 
+frag = magenta bold
+ 
+old = red bold
+ 
+new = green bold
+ 
+ 
+ 
+ 
+[color "status"]
+ 
+added = yellow
+ 
+changed = green
+ 
+untracked = cyan
+ 
+ 
+ 
+ 
+[diff]
+ 
+tool = vimdiff
+ 
+ 
+ 
+ 
+[difftool]
+ 
+prompt = No
+
+
+[keyboard]	
+co = checkout // 切换分支，或去到特定的commit
+ss = status
+cm = commit -m
+br = branch
+bm = branch -m  // 修改当前分支的名称
+bd = branch -D  // 删除某个分支
+cb = checkout -b    // 新建一个和当前分支一样的分支，并切换过去
+df = diff
+ls = log --stat // 查看每次提交修改了哪些文件， git ls -n， 只看最近的n次提交
+lp = log -p // 查看每次提交修改了那些行,git lp -n， 只看最近n次提交
+plo = pull origin
+pho = push origin
+
+</p>
