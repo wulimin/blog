@@ -4,6 +4,7 @@ title:      安全漏洞引言
 keywords:   Cache，Asynchronous，Concurrent
 category:   secure  
 description: 
+permalink: /blog/2016/09/08.secure-introduce.html
 tags:		[web, 服务器]
 ---
 
