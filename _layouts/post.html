@@ -56,7 +56,7 @@ layout: default
               {% for post in posts %}
                 {% if post.url %}
 		<li>
-                  <a href="/blog/{{ post.url }}" class="post-list-item">
+                  <a href="/blog{{ post.url }}" class="post-list-item">
                     <h2>{{ post.title }}</h2>
                     <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
                   </a>
