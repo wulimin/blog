@@ -7,9 +7,9 @@ description:
 tags:		[web, 服务器]
 ---
 
-###php基础知识（数组、字符串处理、正则表达式）
-###高级知识
-###热门框架 laravel、thinkphp、zendframwork、yii
+1. php基础知识（数组、字符串处理、正则表达式）
+2. 高级知识
+3. 热门框架 laravel、thinkphp、zendframwork、yii
 4. 设计模式
 5. 加密知识
 6. 高并发处理、压力测试
