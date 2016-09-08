@@ -1,0 +1,20 @@
+---
+layout:     post
+title:      php知识点概要
+keywords:   Cache，Asynchronous，Concurrent
+category:   php 
+description: 
+tags:		[web, 服务器]
+---
+
+###php基础知识（数组、字符串处理、正则表达式）
+###高级知识
+###热门框架 laravel、thinkphp、zendframwork、yii
+4. 设计模式
+5. 加密知识
+6. 高并发处理、压力测试
+7. memcache、redis缓存使用
+8. https网络协议、第三方认证登录（oauth验证登录）、第三方请求方式（curl）
+9. 服务器环境、nginx配置、负载均衡、CDN内容分发网络、Linux知识使用（sed、awk、ps -aux、grep、vi、more、chmod、ls、）
+10. mongodb队列、nosql、mysql数据库
+11. svn、版本库git使用
