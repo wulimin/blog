@@ -1,8 +1,10 @@
 ---
-layout : post
-title  : php知识点概要
-category : php
-tags : [web]
+layout:     post
+title:      php知识点概要
+keywords:   Cache，Asynchronous，Concurrent
+category:   php 
+description: 
+tags:		[web, 服务器]
 ---
 
 ###php基础知识（数组、字符串处理、正则表达式）
