@@ -3,7 +3,7 @@
 layout:     post
 title:      travel须知
 keywords:   Cache，Asynchronous，Concurrent
-category:   php 
+category:   travel 
 description: 
 tags:		[web, 服务器]
 ---
