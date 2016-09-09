@@ -1,4 +1,5 @@
 ---
+layout: post
 title : excel使用技巧
 category : excel
 tag : office
