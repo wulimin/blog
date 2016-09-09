@@ -5,7 +5,7 @@ category : git
 tag : git
 ---
 ```javascript
-git branch 分支名                     //新建分支
+git branch 分支名                    //新建分支
 git push origin 分支名              //把分支推送到远程
 git checkout -b 分支名             //创建并切换分支
 git add -i                                //查看已经add的文件
@@ -35,7 +35,7 @@ reset 是在正常的commit历史中,删除了指定的commit,这时 HEAD 是向
 ```
 
 ### 避免git pull提示      git pull <remote> <branch>
-* git branch --set-upstream-to=origin/hfb_project_484
+* git branch --set-upstream-to=origin/po_project_1
 
 ### git设置远程ssh:
 * ssh-keygen -t rsa -C "xiaoxiao@gmail.cn"
