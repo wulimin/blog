@@ -24,7 +24,6 @@ tag : git
 >git reset 057d                      //回退到某个版本   <br>
 >git revert HEAD                    //撤销前一次 commit  <br>
 >git revert commit-id             //撤销指定的版本，撤销也会作为一次提交进行保存  <br>
-
 >git revert是用一次新的commit来回滚之前的commit，git reset是直接删除指定的commit
 看似达到的效果是一样的,其实完全不同.  <br>
 第一 : 
