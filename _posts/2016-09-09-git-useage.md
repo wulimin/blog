@@ -34,24 +34,19 @@ git revert是用一次新的commit来回滚之前的commit，git reset是直接�
 reset 是在正常的commit历史中,删除了指定的commit,这时 HEAD 是向后移动了,而 revert 是在正常的commit历史中再commit一次,只不过是反向提交,他的 HEAD 是一直向前的.
 ```
 
-###避免git pull提示      git pull <remote> <branch>
+### 避免git pull提示      git pull <remote> <branch>
 * git branch --set-upstream-to=origin/hfb_project_484
 
-###git设置远程ssh:
+### git设置远程ssh:
 * ssh-keygen -t rsa -C "wulimin@pingan.com.cn"
 
- ###git删除未跟踪文件 删除 untracked files
+ ### git删除未跟踪文件 删除 untracked files
 * git clean -f
 * git clean -d -fx
-
+* git clean -fd   //连untracked 的目录也一起删掉
+* git clean -xfd  // 连gitignore 的untrack 文件/目录也一起删掉 （慎用，一般这个是用来删掉编译出来的 .o之类的文件用的）
  
-### 连 untracked 的目录也一起删掉
-* git clean -fd
- 
-### 连 gitignore 的untrack 文件/目录也一起删掉 （慎用，一般这个是用来删掉编译出来的 .o之类的文件用的）
-* git clean -xfd
- 
-### 在用上述 git clean 前，墙裂建议加上 -n 参数来先看看会删掉哪些文件，防止重要文件被误删
+注 ： 在用上述 git clean 前，墙裂建议加上 -n 参数来先看看会删掉哪些文件，防止重要文件被误删
 * git clean -nxfd
 * git clean -nf
 * git clean -nfd
@@ -76,12 +71,12 @@ tag是对历史commitID做的标记，如果想切换到tag,可以使用git chec
 
 
 ###git submodule子模块
-添加：
+* 添加
 git submodule add 仓库地址 路径
-删除：
+* 删除
 1. 在.gitmodules删除相应配置信息
 2. 执行git rm -cached 将子模块从git中删除
-更新：
+* 更新
 git submodule update --init --recursive
 
 
