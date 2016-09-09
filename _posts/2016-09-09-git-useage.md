@@ -8,31 +8,31 @@ tag : git
 
   git branch 分支名                    //新建分支
   git push origin 分支名              //把分支推送到远程
-  git checkout -b 分支名             //创建并切换分支
-  git add -i                                //查看已经add的文件
-  gitlog                                    //查看已经commit的文件
-  git show  hashcommitID      //查看某次提交改过的内容
-  gitlog -n 1 --stat                   //查看最后一次提交所有更改过的文件
-  git log online -pretty 
-  
-  git branch  -r  -d 分支名           //删除本地分支
-  git push origin  :分支名           //删除远程分支名
-  git rm -rf 文件名                      //删除git版本的文件
-  git rm -r --cached  某个目录    //删除多个git版本的文件
-  
-  git reset HEAD^                    //回退所有内容到上一个版本
-  git reset 057d                      //回退到某个版本 
-  git revert HEAD                    //撤销前一次 commit
-  git revert commit-id             //撤销指定的版本，撤销也会作为一次提交进行保存
-  
-  git revert是用一次新的commit来回滚之前的commit，git reset是直接删除指定的commit
-  看似达到的效果是一样的,其实完全不同.
-  第一:
-  上面我们说的如果你已经push到线上代码库, reset 删除指定commit以后,你git push可能导致一大堆冲突.但是revert 并不会.
-  第二:
-  如果在日后现有分支和历史分支需要合并的时候,reset 恢复部分的代码依然会出现在历史分支里.但是revert 方向提交的commit 并不会出现在历史分支里.
-  第三:
-  reset 是在正常的commit历史中,删除了指定的commit,这时 HEAD 是向后移动了,而 revert 是在正常的commit历史中再commit一次,只不过是反向提交,他的 HEAD 是一直向前的.
+git checkout -b 分支名             //创建并切换分支
+git add -i                                //查看已经add的文件
+gitlog                                    //查看已经commit的文件
+git show  hashcommitID      //查看某次提交改过的内容
+gitlog -n 1 --stat                   //查看最后一次提交所有更改过的文件
+git log online -pretty 
+
+git branch  -r  -d 分支名           //删除本地分支
+git push origin  :分支名           //删除远程分支名
+git rm -rf 文件名                      //删除git版本的文件
+git rm -r --cached  某个目录    //删除多个git版本的文件
+
+git reset HEAD^                    //回退所有内容到上一个版本
+git reset 057d                      //回退到某个版本 
+git revert HEAD                    //撤销前一次 commit
+git revert commit-id             //撤销指定的版本，撤销也会作为一次提交进行保存
+
+git revert是用一次新的commit来回滚之前的commit，git reset是直接删除指定的commit
+看似达到的效果是一样的,其实完全不同.
+第一:
+上面我们说的如果你已经push到线上代码库, reset 删除指定commit以后,你git push可能导致一大堆冲突.但是revert 并不会.
+第二:
+如果在日后现有分支和历史分支需要合并的时候,reset 恢复部分的代码依然会出现在历史分支里.但是revert 方向提交的commit 并不会出现在历史分支里.
+第三:
+reset 是在正常的commit历史中,删除了指定的commit,这时 HEAD 是向后移动了,而 revert 是在正常的commit历史中再commit一次,只不过是反向提交,他的 HEAD 是一直向前的.
 
 
 ### 避免git pull提示      git pull <remote> <branch>
