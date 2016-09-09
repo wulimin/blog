@@ -40,7 +40,7 @@ reset 是在正常的commit历史中,删除了指定的commit,这时 HEAD 是向
 ### git设置远程ssh:
 * ssh-keygen -t rsa -C "wulimin@pingan.com.cn"
 
- ### git删除未跟踪文件 删除 untracked files
+### git删除未跟踪文件 删除 untracked files
 * git clean -f
 * git clean -d -fx
 * git clean -fd   //连untracked 的目录也一起删掉
@@ -71,12 +71,12 @@ tag是对历史commitID做的标记，如果想切换到tag,可以使用git chec
 
 
 ###git submodule子模块
-* 添加
+* 添加  <br>
 git submodule add 仓库地址 路径
-* 删除
-1. 在.gitmodules删除相应配置信息
-2. 执行git rm -cached 将子模块从git中删除
-* 更新
+* 删除  <br>
+a.在.gitmodules删除相应配置信息
+b.执行git rm -cached 将子模块从git中删除
+* 更新  <br>
 git submodule update --init --recursive
 
 
