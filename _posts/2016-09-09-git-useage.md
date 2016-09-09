@@ -6,10 +6,10 @@ tag : git
 ---
 
 
->git branch 分支名                    //新建分支
->git push origin 分支名              //把分支推送到远程
->git checkout -b 分支名             //创建并切换分支
->git add -i                                //查看已经add的文件
+>git branch 分支名                    //新建分支  <br>
+>git push origin 分支名              //把分支推送到远程  <br>
+>git checkout -b 分支名             //创建并切换分支  <br>
+>git add -i                                //查看已经add的文件  <br>
 gitlog                                    //查看已经commit的文件
 git show  hashcommitID      //查看某次提交改过的内容
 gitlog -n 1 --stat                   //查看最后一次提交所有更改过的文件
