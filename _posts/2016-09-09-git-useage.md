@@ -69,7 +69,7 @@ tag是对历史commitID做的标记，如果想切换到tag,可以使用git chec
 如果需要修改，可以创建基于tag的一个分支，git checkout -b branch tag,此时便会在分支上开发，之后切换到主线合并。
 
 
-###git submodule子模块
+### git submodule子模块
 * 添加  <br>
 git submodule add 仓库地址 路径
 * 删除  <br>
