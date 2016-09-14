@@ -26,12 +26,5 @@ tag : linux
 ## curl使用
 * curl -O https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.0.6.tgz   //下载
 * tar -zxvf mongodb-linux-x86_64-3.0.6.tgz  //解压
-
 * ll -list |head -10 显示最近前10条
-
-## linux命令行快捷键：
-* ctrl+a   //移到行首
-* ctrl+e   //移到行尾
-* ctrl+l    //清屏
-* ctrl+c   //删除整行
 
