@@ -24,10 +24,10 @@ tag : linux
 * 语法格式： rpm -qR 软件名
 
 ## curl使用
-* #curl -O https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.0.6.tgz   //下载
-* #tar -zxvf mongodb-linux-x86_64-3.0.6.tgz  //解压
+* curl -O https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.0.6.tgz   //下载
+* tar -zxvf mongodb-linux-x86_64-3.0.6.tgz  //解压
 
-* #ll -list |head -10 显示最近前10条
+* ll -list |head -10 显示最近前10条
 
 ## linux命令行快捷键：
 * ctrl+a   //移到行首
