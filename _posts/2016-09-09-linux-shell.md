@@ -5,7 +5,7 @@ category : linux
 tag : linux
 ---
 
-```javascript
+
 #rpm -qa   //查看安装哪些软件
 rpm -ql  软件名   //查询已安装软件包都安装到何处
 4）查询一个已安装软件包的信息
@@ -34,4 +34,4 @@ ctrl+a   //移到行首
 ctrl+e   //移到行尾
 ctrl+l    //清屏
 ctrl+c   //删除整行
-```
+
