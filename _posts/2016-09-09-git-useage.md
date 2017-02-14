@@ -1,6 +1,6 @@
 ---
 layout : post
-title : git使用方法
+title : git常用命令
 category : git
 tag : git
 ---
