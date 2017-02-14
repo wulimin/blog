@@ -10,9 +10,9 @@ tag : git
 >git push origin 分支名              //把分支推送到远程  <br>
 >git checkout -b 分支名             //创建并切换分支  <br>
 >git add -i                                //查看已经add的文件  <br>
->gitlog                                    //查看已经commit的文件  <br>
+>git log                                    //查看已经commit的文件  <br>
 >git show  hashcommitID      //查看某次提交改过的内容  <br>
->gitlog -n 1 --stat                   //查看最后一次提交所有更改过的文件  <br>
+>git log -n 1 --stat                   //查看最后一次提交所有更改过的文件  <br>
 >git log online -pretty   <br>
 
 >git branch  -r  -d 分支名           //删除本地分支  <br>
